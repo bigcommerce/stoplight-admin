@@ -5,7 +5,7 @@ $LOAD_PATH.push(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name = 'stoplight-admin'
-  gem.version = '0.3.5'
+  gem.version = '0.3.6'
   gem.summary = 'A simple administration interface for Stoplight.'
   gem.description = gem.summary
   gem.homepage = 'https://github.com/bolshakov/stoplight-admin'
@@ -27,7 +27,7 @@ Gem::Specification.new do |gem|
 
   {
     'haml' => '5.0.4',
-    'sinatra-contrib' => '2.2.0'
+    'sinatra-contrib' => '2.2.3'
   }.each do |name, version|
     gem.add_dependency(name, "~> #{version}")
   end
